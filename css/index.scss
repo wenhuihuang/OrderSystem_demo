@@ -1,0 +1,64 @@
+@charset 'utf-8';
+@import 'reset.scss';
+
+//home
+.home-top-nav{
+    ul{
+        display:-webkit-box;
+        li{
+            background: blue;
+            color: #fff;
+            display: block;
+            padding: 6px 10px;
+            margin-right: 8px;
+            border-radius: 3px;
+        }
+    }
+}
+.home-footer{
+    display: -webkit-box;
+    .home-button{
+        -webkit-box-flex:1.0;
+        text-align: center;
+        button{
+            width:80%;
+        }
+    }
+}
+//login
+.bar .login-title{
+      text-align: center;
+}
+.login-form{
+    .item{
+        border:none;
+    }
+   .login-fn{
+       text-align: center;
+       label{
+           display: inline-block;
+           text-align: center;
+       }
+    }
+    .login-btn{
+        text-align: center;
+        padding:8px 0;
+        button{
+            width:40%;
+        }
+        .exit{
+            background: #E5642A;
+        }
+    } 
+    input[type=text],input[type=password]{
+        border:1px solid #ccc;
+        border-radius:3px;
+    }
+    .item-input{
+        padding:10px 10px;
+        .input-label{
+            width:22%;
+            text-align: center;
+        }
+    }
+}

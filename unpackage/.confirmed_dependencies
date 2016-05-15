@@ -1,0 +1,18 @@
+{
+	"index.html": {
+		"resources": [
+			"js/tools.js",
+			"css/index.css",
+			"templates/home.html",
+			"js/app.js",
+			"lib/ionic/js/ionic.bundle.js",
+			"lib/ionic/css/ionic.css",
+			"js/services.js",
+			"templates/playlist.html",
+			"js/controllers.js",
+			"templates/playlists.html",
+			"templates/car.html",
+			"js/directives.js"
+		]
+	}
+}
